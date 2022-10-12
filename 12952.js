@@ -32,3 +32,5 @@ function solution(n) {
     }
     return answer;
 }
+
+//N-Queens
