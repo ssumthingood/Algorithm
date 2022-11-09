@@ -11,6 +11,8 @@ function solution(k, dungeons) {
         for (let j = 0; j < N; j++) {
             if (k >= dungeons[j][0] && !visited[j]) {
                 visited[j] = true;
+                // console.log(j+" visit")
+                // console.log((cnt+1)+" counted")
                 dfs(k - dungeons[j][1], cnt + 1);
                 visited[j] = false;
             }
