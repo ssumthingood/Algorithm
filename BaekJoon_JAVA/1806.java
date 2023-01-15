@@ -40,7 +40,7 @@ public class java1806 {
 //				}
 //			}
 //			
-//		} 시간 초과 - O(N*2)
+//		} 시간 초과 - O(N^2)
 		
 		int sum = 0;
 		int last = 0;
