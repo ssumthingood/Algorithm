@@ -16,7 +16,7 @@ class Solution {
             }else{
                 last++;
                 if(last == prices.length){
-                    425myQ.add(last-start-1);
+                    myQ.add(last-start-1);
                     start++;
                     last = start;
                 }
