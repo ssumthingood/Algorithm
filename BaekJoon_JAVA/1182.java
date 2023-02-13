@@ -31,30 +31,6 @@ public class java1182 {
 		System.out.println(answer);
 	}
 	
-//	static void makePermutation(int[] numbers, int need, ArrayList<Integer> list) {
-//		if(need==0) {
-//			StringBuilder sb = new StringBuilder();
-//			int temp = 0;
-//			for(int k:list) {
-//				sb.append(k).append(" ");
-//				temp +=k;
-//			}
-//			if(temp==S) answer++;
-//			
-//			sb.append("\n");
-//			System.out.print(sb);
-//			return;
-//		}
-//		
-//		for(int i=0;i<N;i++) {
-//			if(!list.contains(numbers[i])) {				
-//				list.add(numbers[i]);
-//				makePermutation(numbers, need-1, list);
-//				list.remove(list.size()-1);
-//			}
-//		}
-//	}
-	
 	static void makeCombination(int[] numbers, int need, int idx, ArrayList<Integer> list) {
 		if(need==0) {
 			StringBuilder sb = new StringBuilder();
