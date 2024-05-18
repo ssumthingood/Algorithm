@@ -5,7 +5,7 @@ import java.util.LinkedList;
 import java.util.Queue;
 import java.util.StringTokenizer;
 
-public class Main {
+public class BAEK_11724 {
 	static BufferedReader br;
 	static StringTokenizer st;
 	static int[][] board;
